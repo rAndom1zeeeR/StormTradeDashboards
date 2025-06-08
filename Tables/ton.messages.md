@@ -1,0 +1,31 @@
+table: ton.messages
+schema:
+| name | type |
+| --- | --- |
+| block_time | timestamp |
+| block_date | date |
+| tx_hash | varchar |
+| tx_lt | bigint |
+| tx_now | integer |
+| msg_hash | varchar |
+| direction | varchar |
+| trace_id | varchar |
+| source | varchar |
+| destination | varchar |
+| value | bigint |
+| fwd_fee | bigint |
+| ihr_fee | bigint |
+| created_lt | bigint |
+| created_at | bigint |
+| opcode | integer |
+| ihr_disabled | boolean |
+| bounce | boolean |
+| bounced | boolean |
+| import_fee | bigint |
+| body_hash | varchar |
+| body_boc | varbinary |
+| comment | varchar |
+| init_state_hash | varchar |
+| init_state_boc | varbinary |
+| \_updated_at | timestamp |
+| \_ingested_at | timestamp |
